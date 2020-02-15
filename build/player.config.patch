@@ -1,0 +1,23 @@
+[
+  // Base machine
+  {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"rehydrationstation"}},
+
+  // Dehydrated foods
+  {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"dehydrated_beef"}},
+  {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"dehydrated_fish"}},
+  {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"dehydrated_oat"}},
+  {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"dehydrated_omelette"}},
+  {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"dehydrated_quiche"}},
+  {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"dehydrated_ramen"}},
+
+  // Rehydrated foods
+  {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"rehydrated_beef"}},
+  {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"rehydrated_fish"}},
+  {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"rehydrated_oat"}},
+  {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"rehydrated_omelette"}},
+  {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"rehydrated_quiche"}},
+  {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"rehydrated_ramen"}},
+
+  // Special foods unlocked by default
+  {"op":"add","path":"/defaultBlueprints/tier1/-","value":{"item":"spacevodka"}}
+]

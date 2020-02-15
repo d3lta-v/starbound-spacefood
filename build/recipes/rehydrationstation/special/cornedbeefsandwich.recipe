@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "cornedbeef", "count" : 1 },
+    { "item" : "bread", "count" : 2 },
+    { "item" : "moondust", "count" : 50 }
+  ],
+  "output" : { "item" : "cornedbeefsandwich", "count" : 1 },
+  "groups" : [ "rehydrationstation", "special" ]
+}

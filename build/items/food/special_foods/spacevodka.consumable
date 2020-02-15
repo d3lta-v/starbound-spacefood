@@ -1,0 +1,28 @@
+{
+  "itemName" : "spacevodka",
+  "rarity" : "Legendary",
+  "price" : 40,
+  "category" : "food",
+  "inventoryIcon" : "spacevodka.png",
+  "description" : "The first vodka in space. Consume responsibly",
+  "shortdescription" : "Посольская Водка",
+  "effects" : [ [
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 250
+    },
+    {
+      "effect" : "ragefood",
+      "duration" : 250
+    }
+  ] ],
+  "foodValue" : 55,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

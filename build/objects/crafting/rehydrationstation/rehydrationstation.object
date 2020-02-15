@@ -1,0 +1,53 @@
+{
+  "objectName" : "rehydrationstation",
+  "colonyTags" : ["crafting","human","humanvillage"],
+  "rarity" : "Uncommon",
+  "race" : "human",
+  "category" : "crafting",
+
+  "price" : 10000,
+  "printable" : false,
+  
+  "inventoryIcon" : "rehydrationstationicon.png",
+  "placementImage" : "rehydrationstation.png:default.default",
+  "placementImagePosition" : [-16, 0],
+
+  "description" : "A blast from the past of how food in space is prepared. A copy of the unit on the International Space Station, built circa 1998 AD",
+  "shortdescription" : "^orange;Rehydration Station^white;",
+
+  "apexDescription" : "This station allows one to create dehydrated food and rehydrate them later.",
+  "avianDescription" : "Food safe for olden day space stations can be made here!",
+  "floranDescription" : "Machine hiss like Floran. Tasty food comes out from machine.",
+  "glitchDescription" : "Inspired. Dehydrated foods might be better for my circuits!",
+  "humanDescription" : "This looks...a bit too familiar.",
+  "hylotlDescription" : "Dehydrated food? That seems like a rather odd concept.",
+  "novakidDescription" : "This 'ere station allows me to make crumbless food!",  
+
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/rehydrationstation.config",
+    "filter" : [ "rehydrationstation" ]
+  },
+
+  "orientations" : [
+    {
+      "image" : "rehydrationstation.png:<color>.<frame>",
+      "imagePosition" : [-16, 0], 
+      "direction" : "left",
+      "flipImages" : true,
+      "frames" : 20,
+      "animationCycle" : 2.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "rehydrationstation.png:<color>.<frame>",
+      "imagePosition" : [-16, 0],
+      "direction" : "right",
+      "frames" : 20,
+      "animationCycle" : 2.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

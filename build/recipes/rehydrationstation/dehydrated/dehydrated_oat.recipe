@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "wheat", "count" : 2 },
+    { "item" : "corn", "count" : 2 },
+    { "item" : "moondust", "count" : 25 },
+    { "item" : "syntheticmaterial", "count" : 1 }
+  ],
+  "output" : { "item" : "dehydrated_oat", "count" : 2 },
+  "groups" : [ "rehydrationstation", "dehydrated" ]
+}

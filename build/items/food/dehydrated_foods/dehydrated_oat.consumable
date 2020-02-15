@@ -1,0 +1,18 @@
+{
+  "itemName" : "dehydrated_oat",
+  "rarity" : "Rare",
+  "price" : 40,
+  "category" : "food",
+  "inventoryIcon" : "dehydrated_oat.png",
+  "description" : "Dehydrated oat cereal. Rehydrate it to make it more edible.",
+  "shortdescription" : "Dehydrated Oat Cereal",
+  "foodValue" : 5,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 10,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

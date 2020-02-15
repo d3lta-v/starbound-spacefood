@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "alienmeat", "count" : 1 },
+    { "item" : "moondust", "count" : 25 },
+    { "item" : "syntheticmaterial", "count" : 1 }
+  ],
+  "output" : { "item" : "dehydrated_beef", "count" : 1 },
+  "groups" : [ "rehydrationstation", "dehydrated" ]
+}

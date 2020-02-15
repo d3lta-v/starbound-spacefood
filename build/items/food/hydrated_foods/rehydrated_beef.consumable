@@ -1,0 +1,28 @@
+{
+  "itemName" : "rehydrated_beef",
+  "rarity" : "Rare",
+  "price" : 40,
+  "category" : "food",
+  "inventoryIcon" : "rehydrated_beef.png",
+  "description" : "A delicious space grade meat patty...the source of the meat is questionable though.",
+  "shortdescription" : "Meat Patty",
+  "effects" : [ [
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 270
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 270
+    }
+  ] ],
+  "foodValue" : 60,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

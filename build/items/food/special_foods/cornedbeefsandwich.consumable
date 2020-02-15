@@ -1,0 +1,36 @@
+{
+  "itemName" : "cornedbeefsandwich",
+  "rarity" : "Legendary",
+  "price" : 40,
+  "category" : "food",
+  "inventoryIcon" : "cornedbeefsandwich.png",
+  "description" : "This sandwich isn't going to cause a Congress hearing for you this time",
+  "shortdescription" : "Corned Beef Sandwich",
+  "effects" : [ [
+    {
+        "effect" : "maxhealthscalingboostfood",
+        "duration" : 270
+    },
+    {
+        "effect" : "maxenergyscalingboostfood",
+        "duration" : 270
+    },
+    {
+      "effect" : "lowgrav",
+      "duration" : 225
+    },
+    {
+      "effect" : "jumpboostfood",
+      "duration" : 225
+    }
+  ] ],
+  "foodValue" : 100,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

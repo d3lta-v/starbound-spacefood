@@ -1,0 +1,32 @@
+{
+  "itemName" : "rehydrated_quiche",
+  "rarity" : "Legendary",
+  "price" : 40,
+  "category" : "food",
+  "inventoryIcon" : "rehydrated_quiche.png",
+  "description" : "A classic French comfort food for your expeditions.",
+  "shortdescription" : "Vegetable Quiche",
+  "effects" : [ [
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 270
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 270
+    },
+    {
+        "effect" : "jumpboostfood",
+        "duration" : 270
+    }
+  ] ],
+  "foodValue" : 90,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

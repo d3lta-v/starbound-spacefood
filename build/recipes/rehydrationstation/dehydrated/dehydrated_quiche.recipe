@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "tomato", "count" : 1 },
+    { "item" : "cheese", "count" : 1 },
+    { "item" : "potato", "count" : 1 },
+    { "item" : "pearlpea", "count" : 1 },
+    { "item" : "eggshoot", "count" : 1 },
+    { "item" : "moondust", "count" : 25 },
+    { "item" : "syntheticmaterial", "count" : 1 }
+  ],
+  "output" : { "item" : "dehydrated_quiche", "count" : 1 },
+  "groups" : [ "rehydrationstation", "dehydrated" ]
+}

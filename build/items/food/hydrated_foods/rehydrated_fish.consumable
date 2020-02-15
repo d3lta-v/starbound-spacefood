@@ -1,0 +1,24 @@
+{
+  "itemName" : "rehydrated_fish",
+  "rarity" : "Uncommon",
+  "price" : 40,
+  "category" : "food",
+  "inventoryIcon" : "rehydrated_fish.png",
+  "description" : "We took the fish out of the water, and then we took the water out of the fish. And then reversed it.",
+  "shortdescription" : "Fish",
+  "effects" : [ [
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 270
+    }
+  ] ],
+  "foodValue" : 30,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "itemName" : "dehydrated_quiche",
+  "rarity" : "Legendary",
+  "price" : 40,
+  "category" : "food",
+  "inventoryIcon" : "dehydrated_quiche.png",
+  "description" : "Dehydrated vegetable quiche. Rehydrate it to make it more edible.",
+  "shortdescription" : "Dehydrated Quiche",
+  "foodValue" : 15,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 10,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

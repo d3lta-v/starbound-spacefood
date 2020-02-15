@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "dehydrated_quiche", "count" : 1 },
+    { "item" : "liquidwater", "count" : 10 }
+  ],
+  "output" : { "item" : "rehydrated_quiche", "count" : 1 },
+  "groups" : [ "rehydrationstation", "rehydrated" ]
+}

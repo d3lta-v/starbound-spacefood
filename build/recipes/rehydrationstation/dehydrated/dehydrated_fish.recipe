@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "rawfish", "count" : 2 },
+    { "item" : "moondust", "count" : 25 },
+    { "item" : "syntheticmaterial", "count" : 1 }
+  ],
+  "output" : { "item" : "dehydrated_fish", "count" : 2 },
+  "groups" : [ "rehydrationstation", "dehydrated" ]
+}

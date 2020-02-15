@@ -1,0 +1,28 @@
+{
+  "itemName" : "rehydrated_oat",
+  "rarity" : "Rare",
+  "price" : 40,
+  "category" : "food",
+  "inventoryIcon" : "rehydrated_oat.png",
+  "description" : "Oat cereal, a nutritious alternative to the supposedly superior breakfast cereal.",
+  "shortdescription" : "Oat Cereal",
+  "effects" : [ [
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 155
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 155
+    }
+  ] ],
+  "foodValue" : 35,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 1.0,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

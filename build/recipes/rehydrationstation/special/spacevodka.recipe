@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "wheat", "count" : 1 },
+    { "item" : "liquidwater", "count" : 5 },
+    { "item" : "liquidpoison", "count" : 5 },
+    { "item" : "syntheticmaterial", "count" : 1 }
+  ],
+  "output" : { "item" : "spacevodka", "count" : 1 },
+  "groups" : [ "rehydrationstation", "special" ]
+}

@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "dehydrated_ramen", "count" : 1 },
+    { "item" : "liquidwater", "count" : 10 },
+    { "item" : "cornedbeef", "count" : 1 }
+  ],
+  "output" : { "item" : "rehydratedultra_ramen", "count" : 1 },
+  "groups" : [ "rehydrationstation", "special" ]
+}

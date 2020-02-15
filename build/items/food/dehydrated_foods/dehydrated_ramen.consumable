@@ -1,0 +1,18 @@
+{
+  "itemName" : "dehydrated_ramen",
+  "rarity" : "Legendary",
+  "price" : 40,
+  "category" : "food",
+  "inventoryIcon" : "dehydrated_ramen.png",
+  "description" : "Dehydrated ramen noodles. Rehydrate it to make it more edible.",
+  "shortdescription" : "Dehydrated Ramen",
+  "foodValue" : 15,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 10,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

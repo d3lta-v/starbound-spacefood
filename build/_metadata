@@ -1,0 +1,10 @@
+{
+  "author" : "DeltaV Δ",
+  "description" : "Wish Starbound had more realistic space food? Well look no further! This mod adds food items that are similar to the real life space food eaten by astronauts onboard the International Space Station, the former Mir space station and a few bonus food items! This mod is fully vanilla and Frackin' Universe compatible.\n\n[h1]How to use[/h1]\nCraft the Rehydration Station, the de facto crafting table for the mod with the Inventor's Table. Dehydrated foods will require raw ingredients and can be stored for a very long time, but does not fill up much hunger. Rehydrate them in the second (Hydrated Foods) tab to increase their food value, at the cost of reducing the shelf life. Easter egg items can be obtained by obtaining certain vanilla items in game and will be displayed in the third (Special) tab. I'm not exactly going to say which ( ͡° ͜ʖ ͡°) \n\nInspiration, Pixel Art, Writing and Animation Credits: [url=https://steamcommunity.com/id/Reggel]Reggel[/url]\nCode monkey and Sprite Wrangling: [url=https://steamcommunity.com/id/sammy0025]DeltaV[/url]\n\n[h1]Food source inspirations[/h1]\n[url=http://web.archive.org/web/20181231185918/https://www.cbc.ca/kidscbc2/the-feed/everything-you-wanted-to-know-about-space-food]CBC: Everything you wanted to know about space food[/url]\n[url=http://web.archive.org/web/20190713063912/https://space.stackexchange.com/questions/30167/how-was-space-ram-instant-ramen-noodles-prepared-and-eaten-on-the-space-shut]StackExchange Space Exploration: How was “Space Ram” (instant ramen noodles) prepared and eaten on the Space Shuttle?[/url]\n\nIf you have any suggestions or ideas to add to this mod, or simply just bugs to report, please do leave a comment!",
+  "friendlyName" : "Real Space Food",
+  "link" : "steam://url/CommunityFilePage/1939032950",
+  "name" : "deltavspacefood",
+  "steamContentId" : "1939032950",
+  "tags" : "Food and Farming",
+  "version" : "0.1.0"
+}

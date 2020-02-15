@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "dehydrated_beef", "count" : 1 },
+    { "item" : "liquidwater", "count" : 3 }
+  ],
+  "output" : { "item" : "rehydrated_beef", "count" : 1 },
+  "groups" : [ "rehydrationstation", "rehydrated" ]
+}

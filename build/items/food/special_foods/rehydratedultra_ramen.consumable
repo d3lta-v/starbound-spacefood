@@ -1,0 +1,44 @@
+{
+  "itemName" : "rehydratedultra_ramen",
+  "rarity" : "Legendary",
+  "price" : 40,
+  "category" : "food",
+  "inventoryIcon" : "rehydratedultra_ramen.png",
+  "description" : "When you thought ramen couldn't get better, there's always someone to prove you wrong.",
+  "shortdescription" : "ULTRA Ramen",
+  "effects" : [ [
+    {
+      "effect" : "maxhealthscalingboostfood",
+      "duration" : 210
+    },
+    {
+      "effect" : "maxenergyscalingboostfood",
+      "duration" : 210
+    },
+    {
+        "effect" : "runboostfood",
+        "duration" : 210
+    },
+    {
+        "effect" : "jumpboostfood",
+        "duration" : 210
+    },
+    {
+        "effect" : "nova",
+        "duration" : 210
+    },
+    {
+      "effect" : "ragefood",
+      "duration" : 210
+    }
+  ] ],
+  "foodValue" : 40,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 0.5,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}

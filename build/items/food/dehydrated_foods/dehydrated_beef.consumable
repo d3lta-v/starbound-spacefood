@@ -1,0 +1,18 @@
+{
+  "itemName" : "dehydrated_beef",
+  "rarity" : "Rare",
+  "price" : 40,
+  "category" : "food",
+  "inventoryIcon" : "dehydrated_beef.png",
+  "description" : "Dehydrated meat patty. Rehydrate it to make it more edible.",
+  "shortdescription" : "Dehydrated Meat Patty",
+  "foodValue" : 10,
+  "tooltipKind" : "food",
+  "builder" : "/items/buildscripts/buildfood.lua",
+  "maxStack" : 1,
+  "itemAgingScripts" : ["/scripts/items/rotting.lua"],
+  "rottingMultiplier" : 10,
+  "blockingEffects" : [
+    "wellfed"
+  ]
+}
